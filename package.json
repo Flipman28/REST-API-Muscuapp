@@ -1,0 +1,19 @@
+{
+  "name": "rest_api_postgresql",
+  "version": "1.0.0",
+  "description": "Rest api pour muscu app avec postgresql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .\\server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
+}
